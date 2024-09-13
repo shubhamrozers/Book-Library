@@ -13,7 +13,7 @@ app.use(cors(
     origin:"https://book-library-fronted.vercel.app",
     methods:["GET", "POST"],
     credentials: true
-            
+  }         
 ));
 app.use(express.json());
 
