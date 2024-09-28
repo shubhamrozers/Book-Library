@@ -29,7 +29,7 @@ mongoose.connect(mongoDBUrl)
 
 // Define a simple route
 app.get('/', (req, res) => {
-  res.send('Library API is running');
+  res.sendFile('./index.html');
 });
 
 // Start the server
